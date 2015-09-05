@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-LOCAL_PATH := vendor/motorola/shamu
+LOCAL_PATH := vendor/moto/shamu
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/adspd:system/bin/adspd \

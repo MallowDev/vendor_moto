@@ -47,4 +47,4 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libtime_genoff
 
-$(call inherit-product, vendor/motorola/shamu/device-partial.mk)
+$(call inherit-product, vendor/moto/shamu/device-partial.mk)
