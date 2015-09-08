@@ -22,7 +22,6 @@ PRODUCT_PACKAGES += \
     RCSBootstraputil \
     RcsImsBootstraputil \
     RcsService \
-    ShamuLayout \
     TimeService \
     VZWAPNLib
 
