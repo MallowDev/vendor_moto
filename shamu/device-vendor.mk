@@ -15,10 +15,14 @@
 # apps
 PRODUCT_PACKAGES += \
     atfwd \
+    DMAgent \
+    DMConfigUpdate \
+    HiddenMenu \
     ims \
     RCSBootstraputil \
     RcsImsBootstraputil \
     RcsService \
+    ShamuLayout \
     TimeService \
     VZWAPNLib
 
@@ -28,13 +32,24 @@ PRODUCT_PACKAGES += \
     AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
+    ConnMO \
+    CQATest \
+    DCMO \
+    DiagMon \
+    DMService \
+    Entitlement \
+    LifetimeData \
+    ManagedProvisioning \
     MotoSignatureApp \
+    SmartcardService \
+    SprintDM \
     TriggerEnroll \
     TriggerTrainingService \
     VZWAPNService
 
 # jars
 PRODUCT_PACKAGES += \
+    com.google.android.dialer.support.jar \
     com.motorola.ims.rcsmanager \
     com.verizon.hardware.telephony.ehrpd \
     com.verizon.hardware.telephony.lte \

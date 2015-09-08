@@ -19,6 +19,15 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),shamu)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.google.android.dialer.support.jar
+LOCAL_MODULE_TAGS := optional
+LOCAL_SRC_FILES := com.google.android.dialer.support.jar
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := $(COMMON_JAVA_PACKAGE_SUFFIX)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.motorola.ims.rcsmanager
 LOCAL_MODULE_TAGS := optional
 LOCAL_SRC_FILES := com.motorola.ims.rcsmanager.jar

@@ -71,11 +71,17 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/fmas_eq.dat:system/etc/fmas_eq.dat \
     $(LOCAL_PATH)/proprietary/etc/qmi_fw.conf:system/etc/qmi_fw.conf \
     $(LOCAL_PATH)/proprietary/etc/thermal-engine-shamu.conf:system/etc/thermal-engine-shamu.conf \
+    $(LOCAL_PATH)/proprietary/etc/diag/audio_voice_apr.cfg:system/etc/diag/audio_voice_apr.cfg \
     $(LOCAL_PATH)/proprietary/etc/diag/sensors_qxdm.cfg:system/etc/diag/sensors_qxdm.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/voice-call-min-log.cfg:system/etc/diag/voice-call-min-log.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/mdm/audio_voice_apr.cfg:system/etc/diag/mdm/audio_voice_apr.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V15.cfg:system/etc/diag/mdm/FIT_V15.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V15_audio.cfg:system/etc/diag/mdm/FIT_V15_audio.cfg \
     $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V16_1.cfg:system/etc/diag/mdm/FIT_V16_1.cfg \
     $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg:system/etc/diag/mdm/FIT_V16_2_volte_full_ip.cfg \
     $(LOCAL_PATH)/proprietary/etc/diag/mdm/FIT_V16_3_audio.cfg:system/etc/diag/mdm/FIT_V16_3_audio.cfg \
     $(LOCAL_PATH)/proprietary/etc/diag/mdm/sensors_qxdm.cfg:system/etc/diag/mdm/sensors_qxdm.cfg \
+    $(LOCAL_PATH)/proprietary/etc/diag/mdm/voice-call-min-log.cfg:system/etc/diag/mdm/voice-call-min-log.cfg \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
     $(LOCAL_PATH)/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
@@ -96,6 +102,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/etc/firmware/vpu.b12:system/etc/firmware/vpu.b12 \
     $(LOCAL_PATH)/proprietary/etc/firmware/vpu.mbn:system/etc/firmware/vpu.mbn \
     $(LOCAL_PATH)/proprietary/etc/firmware/vpu.mdt:system/etc/firmware/vpu.mdt \
+    $(LOCAL_PATH)/proprietary/etc/permissions/com.android.omadm.service.xml:system/etc/permissions/com.android.omadm.service.xml \
+    $(LOCAL_PATH)/proprietary/etc/permissions/com.google.android.dialer.support.xml:system/etc/permissions/com.google.android.dialer.support.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.motorola.DirectedSMSProxy.xml:system/etc/permissions/com.motorola.DirectedSMSProxy.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.motorola.ims.rcsmanager.xml:system/etc/permissions/com.motorola.ims.rcsmanager.xml \
     $(LOCAL_PATH)/proprietary/etc/permissions/com.motorola.triggerenroll.xml:system/etc/permissions/com.motorola.triggerenroll.xml \
@@ -112,6 +120,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libadspd.so:system/lib/libadspd.so \
     $(LOCAL_PATH)/proprietary/lib/libaudioroute.so:system/lib/libaudioroute.so \
     $(LOCAL_PATH)/proprietary/lib/libdetectmodem.so:system/lib/libdetectmodem.so \
+    $(LOCAL_PATH)/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+    $(LOCAL_PATH)/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
     $(LOCAL_PATH)/proprietary/lib/libflacencoder.so:system/lib/libflacencoder.so \
     $(LOCAL_PATH)/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
     $(LOCAL_PATH)/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
@@ -233,6 +243,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx135_video_hd.so:system/vendor/lib/libchromatix_imx135_video_hd.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx214_common.so:system/vendor/lib/libchromatix_imx214_common.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx214_cpp.so:system/vendor/lib/libchromatix_imx214_cpp.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx214_cpp_snap.so:system/vendor/lib/libchromatix_imx214_cpp_snap.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx214_default_video.so:system/vendor/lib/libchromatix_imx214_default_video.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx214_hfr_120.so:system/vendor/lib/libchromatix_imx214_hfr_120.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/libchromatix_imx214_hfr_60.so:system/vendor/lib/libchromatix_imx214_hfr_60.so \
