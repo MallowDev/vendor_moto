@@ -38,7 +38,6 @@ PRODUCT_PACKAGES += \
     DMService \
     Entitlement \
     LifetimeData \
-    ManagedProvisioning \
     MotoSignatureApp \
     SmartcardService \
     SprintDM \
