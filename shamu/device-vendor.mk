@@ -15,8 +15,6 @@
 # apps
 PRODUCT_PACKAGES += \
     atfwd \
-    DMAgent \
-    DMConfigUpdate \
     HiddenMenu \
     ims \
     RCSBootstraputil \
