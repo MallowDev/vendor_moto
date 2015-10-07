@@ -12,20 +12,25 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# apps
+$(call inherit-product, vendor/moto/shamu/device-partial.mk)
+
+# Prebuilt APKs
 PRODUCT_PACKAGES += \
     atfwd \
-    HiddenMenu \
     ims \
-    RCSBootstraputil \
-    RcsImsBootstraputil \
-    RcsService \
     TimeService \
     VZWAPNLib
 
-# priv-app
+# Prebuilt jars
 PRODUCT_PACKAGES += \
-    appdirectedsmspermission \
+    com.verizon.hardware.telephony.ehrpd \
+    com.verizon.hardware.telephony.lte \
+    com.verizon.ims \
+    rcsimssettings \
+    rcsservice
+
+# Prebuilt privileged APKs
+PRODUCT_PACKAGES += \
     AppDirectedSMSProxy \
     BuaContactAdapter \
     CNEService \
@@ -36,26 +41,13 @@ PRODUCT_PACKAGES += \
     DMService \
     Entitlement \
     LifetimeData \
+    GCS \
     MotoSignatureApp \
-    SmartcardService \
     SprintDM \
     TriggerEnroll \
     TriggerTrainingService \
     VZWAPNService
 
-# jars
-PRODUCT_PACKAGES += \
-    com.google.android.dialer.support.jar \
-    com.motorola.ims.rcsmanager \
-    com.verizon.hardware.telephony.ehrpd \
-    com.verizon.hardware.telephony.lte \
-    com.verizon.ims \
-    org.simalliance.openmobileapi \
-    rcsimssettings \
-    rcsservice
-
-# libraries
+# Prebuilt vendor/libs needed for compilation
 PRODUCT_PACKAGES += \
     libtime_genoff
-
-$(call inherit-product, vendor/moto/shamu/device-partial.mk)
